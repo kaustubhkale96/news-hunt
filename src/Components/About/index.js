@@ -5,13 +5,13 @@ export default function About() {
             <div class="min-h-screen bg-indigo-900 bg-opacity-60 py-6 flex flex-col justify-center sm:py-12">
                 <div class="flex space-x-4 px-4 justify-around">
                     {/* <!-- CARD --> */}
-                    <div class="bg-gradient-to-t from-black via-purple-900 to-blue-700  h-80 w-28 md:w-96 md:rounded-3xl rounded-full shadow-md relative flex flex-col items-center justify-between md:items-start py-5 md:p-5 transition-all duration-150">
+                    <div class="bg-gradient-to-t from-black via-purple-900 to-blue-700  h-80 w-full md:w-96 md:rounded-3xl rounded-lg shadow-md relative flex flex-col items-center justify-between md:items-start py-5 md:p-5 transition-all duration-150">
                         {/* <!-- IMG PROFILE --> */}
                         <img class="rounded-full w-16 h-16 shadow-sm absolute -top-8 transform md:scale-110 duration-700" src="https://w7.pngwing.com/pngs/738/965/png-transparent-web-development-web-design-software-development-web-developer-web-design-blue-angle-web-design.png" alt="" />
 
                         {/* <!-- TEXTS --> */}
-                        <div class="transform -rotate-90 md:rotate-0 align-middle text-2xl font-semibold text-gray-200 text-center m-auto md:m-0 md:mt-8">Kaustubh Kale</div>
-                        <ul class="text-lg text-gray-300 font-light hidden md:block">
+                        <div class="transform md:rotate-0 align-middle text-2xl font-semibold text-gray-200 text-center m-auto md:m-0 md:mt-8">Kaustubh Kale</div>
+                        <ul class="text-lg text-gray-300 font-light md:block">
                             <li>Web Developer</li>
                             <li>HTML, CSS, ReactJS, NodeJS, MongoDB...</li>
                             <li>INDIA ❤</li>
