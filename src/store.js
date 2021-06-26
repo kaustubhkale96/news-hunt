@@ -6,7 +6,7 @@ const allReducers = combineReducers({data: loginReducer})
  const store =createStore(
      allReducers,
      applyMiddleware(thunk),
-     window.devToolsExtension && window.devToolsExtension()
+    //  window.devToolsExtension && window.devToolsExtension()
  )
 
  export default store;
